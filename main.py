@@ -29,4 +29,4 @@ while True:
             operations.commands_line.get(command)()
 
     else:
-        print(f"'{command}' is not recognized as an internal or external command, operable program or batch file.")
+        print(f"{command}: Command Not Found, Type 'help' For More Information.")

@@ -78,6 +78,7 @@ def change_dir(dir="/home/") -> None:
 def exit_shell(noth='') -> None:
     """This Method Will Exit From The Shell."""
 
+    print("Created By Dark-Knight:-")
     exit()
 
 # ====================================

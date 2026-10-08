@@ -93,19 +93,3 @@ commands_line = { # If You Will Add New Command Line, You Must Add It Here.
     "help": help_user,
 
 }
-
-# input()
-# clear_screen()
-# list_show()
-# list_show("/media/dark-knight/وحدة تخزين جديدة/SK")
-# change_dir("/media/dark-knight/وحدة تخزين جديدة/DK")
-# current_work_dir()
-# clear_screen()
-# exit_shell("/")
-# clear_screen()
-# help_user()
-
-# commands_line["ls"]()
-# list_show()
-# change_dir()
-# list_show()

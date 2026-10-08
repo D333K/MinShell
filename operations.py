@@ -61,9 +61,12 @@ def current_work_dir(noth='') -> None:
 
 # ====================================
 
-def change_dir(dir="/home/") -> None:
+def change_dir(dir='') -> None:
     """This Method Will Change The Current Directory To 
         The Root As Default Or The Given Directory."""
+
+    if not dir:
+        dir = os.path.expanduser('~') # Change To Home Directory If No Argument Is Given.
 
     try:
         os.chdir(dir)

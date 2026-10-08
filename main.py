@@ -11,8 +11,7 @@ while True:
 
     try:
         command = command_split[0]
-        argument = command_split[1:] # For Multi Word Argument, We Will Take All The Words After The Command As Argument.
-        argument = ' '.join(argument) # For Multi Word Argument, We Will Join It With Space.
+        argument = ' '.join(command_split[1:]) # For Multi Word Argument, We Will Join It With Space.
 
     except IndexError:
         command = command_split[0]

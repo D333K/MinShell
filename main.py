@@ -1,9 +1,11 @@
+import os
 import operations
 
 print("Welcome To MinShell")
 
 while True:
-    user_input = input("DK-Shell => ").strip()
+    path = os.getcwd()
+    user_input = input(f"DK-Shell:{path} => ").strip()
 
     command_split = user_input.split()
     command = ''
